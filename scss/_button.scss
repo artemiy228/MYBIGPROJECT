@@ -1,0 +1,15 @@
+.btn {
+	color: #333b46;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px 30px;
+	border-radius: 19px;
+	border: 1px solid #333b46;
+	text-decoration: none;
+	transition: all 0.1s linear;
+	&:hover {
+		background-color: #000;
+		color: #fff;
+	}
+}

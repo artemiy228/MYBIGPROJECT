@@ -1,0 +1,41 @@
+.slider__inner {
+	text-align: center;
+}
+.slider__title {
+	color: #ffffff;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 35px;
+	font-weight: 300;
+	line-height: 70px;
+	text-transform: uppercase;
+	letter-spacing: 7px;
+	margin-bottom: 40px;
+}
+.slider__text {
+	margin: 0 auto;
+	max-width: 605px;
+	color: #ffffff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 28px;
+	letter-spacing: 0.8px;
+	margin-bottom: 220px;
+}
+.slider__arrow {
+	margin: 0 auto;
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	padding: 20px;
+	background-color: #19bd9a;
+}
+.slider__arrow {
+	position: relative;
+}
+.arrow__down {
+	position: absolute;
+	top: 50%;
+	right: 11px;
+	transform: translateY(-50%);
+}

@@ -1,0 +1,28 @@
+.header {
+	font-family: "Open Sans", sans-serif;
+}
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 50px;
+	margin: 0px 100px 230px 100px;
+}
+.nav__link {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	margin-right: 30px;
+	text-decoration: none;
+	transition: all 0.1s linear;
+	&:hover {
+		padding: 8px 20px;
+		border-radius: 17px;
+		border: 1px solid #ffffff;
+	}
+	&:active {
+		padding: 8px 20px;
+		border-radius: 17px;
+		border: 1px solid #ffffff;
+	}
+}

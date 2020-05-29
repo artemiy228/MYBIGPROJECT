@@ -1,0 +1,25 @@
+.bouncy__wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin: 80px 100px;
+}
+.bouncy__info {
+	max-width: 470px;
+}
+.bouncy__title {
+	color: #333b46;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+.bouncy__text {
+	color: #81868e;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0.7px;
+	margin: 50px 0;
+}
